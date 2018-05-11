@@ -8,5 +8,7 @@ There are currently no solution to this or have yet to be found. So this is my o
 using this for yourself remember that it can/can't be 100% correct.
 
 Initial: Finish Each coding challenge
+<br>
 Mid: Update and optimize when time available
+<br>
 Final: Code in a different language that output the same thing
