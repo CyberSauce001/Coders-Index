@@ -3,15 +3,20 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
     char choice;
     int n1,n2;
     
     cout << "Enter a number: ";
     cin >> n1;
-    cout << "\nEnter a number: ";
+    cout << "\nEnter a second number: ";
     cin >> n2;
-    
+    while (n2 < n1) {
+		cout << "Enter a higher number than the first:\n";
+		cin >> n2;
+	}
+		
     do{
         cout << endl << endl;
         cout << "a - Display all odd\n";
@@ -21,7 +26,10 @@ int main() {
         cin >> choice;
 
         switch(choice) {
-            case 'a': cout <<"test";
+            case 'a':
+				if (int i = n1; i <= n2; i++)
+					if (n1%2 != 0)
+					cout << i << " ";
                     break;
             case 'b': cout << "test";
                     break;
